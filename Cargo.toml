@@ -4,6 +4,12 @@ version = "0.1.0"
 authors = ["Mathieu Tarral <mathieu.tarral@protonmail.com>"]
 edition = "2018"
 links = "xenctrl"
+repository = "https://github.com/Wenzel/xen-sys"
+readme = "README.md"
+keywords = ["xen"]
+description = "Rust bindings for Xen hypervisor"
+license = "GPL-3.0-only"
+licence-file = "LICENSE"
 
 [dependencies]
 

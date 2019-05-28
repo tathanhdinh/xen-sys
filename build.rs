@@ -5,6 +5,9 @@ use std::path::PathBuf;
 
 fn main() {
 
+    // what library to link with
+    println!("cargo:rustc-link-lib=xenctrl");
+
     // The bindgen::Builder is the main entry point
     // to bindgen, and lets you build up options for
     // the resulting bindings.

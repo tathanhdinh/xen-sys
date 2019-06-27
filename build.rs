@@ -17,6 +17,8 @@ fn main() {
         .whitelist_function("xc_.*")
         // Keep C's enums as Rust's enums.
         .default_enum_style(bindgen::EnumVariation::Rust)
+        // WIP: disable tests.
+        .layout_tests(false)
         // Finish the builder and generate the bindings.
         .generate()
         // Unwrap the Result and panic on failure.

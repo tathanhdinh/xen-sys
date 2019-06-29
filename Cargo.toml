@@ -6,8 +6,8 @@ edition = "2018"
 links = "xenctrl"
 repository = "https://github.com/Wenzel/xen-sys"
 readme = "README.md"
-keywords = ["xen"]
-description = "Rust bindings for Xen hypervisor"
+keywords = ["xen", "introspection"]
+description = "Rust bindings for Xen's xenctrl library"
 license = "GPL-3.0-only"
 
 [dependencies]

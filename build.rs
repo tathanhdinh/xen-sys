@@ -14,9 +14,9 @@ fn main() {
         .header(XEN_HEADERS_WRAPPER)
         // Generate bindings for Xen specific types
         // and functions only.
-        .whitelist_function("xc_.*")
+        // .whitelist_function("xc_.*")
         // Keep C's enums as Rust's enums.
-        .default_enum_style(bindgen::EnumVariation::Rust { non_exhaustive: false })
+        // .default_enum_style(bindgen::EnumVariation::Rust { non_exhaustive: false })
         // Finish the builder and generate the bindings.
         .generate()
         // Unwrap the Result and panic on failure.
